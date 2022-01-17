@@ -48,6 +48,8 @@ Links to drivers:
 If You want to stick with the given code save the drivers to **C://drivers**, 
 otherwise You need to change the path of the drivers in **DesiredBrowser** class to chosen path.
 
+After all that, to use chosen browser You need to write **name** of the browser in a method **setWebDriver** within **setupTest** method of the **BlizzardTest** class.
+
 To run test, just right click on class **BlizzardTest** in **src/test/java** and select option **Run 'BlizzardTest'**.
 Another way to run test is through terminal which can be found in the footer of IntelliJ IDEA and write **mvn test**.
 After that, use **ctrl+Enter** to initiate test. This way of running the test will create report file
